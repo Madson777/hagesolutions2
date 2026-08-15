@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hage Solutions - Consultoria e Gestão Condominial">
+    <title>Hage Solutions - Consultoria e Gestão Condominial</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo-link">
+                <img src="assets/images/logo.png" alt="Hage Solutions" class="brand-logo">
+            </a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileNav">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="mobileNav">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#careers">Trabalhe Conosco</a></li>
+                <li class="mobile-only-nav-actions">
+                    <a class="mobile-nav-secondary" href="https://www.hagesolutions.com.br:2096/" target="_blank" rel="noopener noreferrer">Área restrita</a>
+                </li>
+                <li class="mobile-only-nav-actions">
+                    <a class="mobile-nav-secondary" href="https://alexhage01.superlogica.net/clients/areadocondomino" target="_blank" rel="noopener noreferrer">Área do condômino</a>
+                </li>
+            </ul>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <a href="https://www.hagesolutions.com.br:2096/" target="_blank" rel="noopener noreferrer" style="color: var(--gray-700); text-decoration: none; font-size: 0.85rem; font-weight: 600; padding: 6px 12px; border-radius: var(--radius-sm); border: 1px solid var(--gray-300); transition: var(--transition-smooth);" onmouseover="this.style.color='var(--primary)'; this.style.borderColor='var(--primary)'; this.style.background='var(--gray-50)'" onmouseout="this.style.color='var(--gray-700)'; this.style.borderColor='var(--gray-300)'; this.style.background='transparent'">Área restrita</a>
+                <a href="https://alexhage01.superlogica.net/clients/areadocondomino" target="_blank" rel="noopener noreferrer" style="color: var(--gray-700); text-decoration: none; font-size: 0.85rem; font-weight: 600; padding: 6px 12px; border-radius: var(--radius-sm); border: 1px solid var(--gray-300); transition: var(--transition-smooth);" onmouseover="this.style.color='var(--primary)'; this.style.borderColor='var(--primary)'; this.style.background='var(--gray-50)'" onmouseout="this.style.color='var(--gray-700)'; this.style.borderColor='var(--gray-300)'; this.style.background='transparent'">Área do condômino</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <video class="hero-bg-video" id="heroBgVideo" autoplay loop muted playsinline>
+            <source src="assets/videos/video1.mp4" type="video/mp4">
+        </video>
+
+        <div class="container hero-grid">
+            <div class="hero-content reveal">
+                <div class="badge">
+                    <span class="badge-icon"></span>
+                    Consultoria e Gestão Condominial
+                </div>
+                <h1 class="hero-title">Há 26 anos fazendo gestão com <span>respeito, dedicação e responsabilidade</span>.</h1>
+                <p class="hero-subtitle">Atuamos em diversos segmentos de mercado prestando serviços e proporcionando otimização de processos com foco principal na redução de custos.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        Converse com um Atendente <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#services" class="btn btn-secondary">
+                        <i class="fa-solid fa-list-check" style="color: var(--primary);"></i> Nossos Serviços
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <div class="hero-card-stack">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=80" alt="Jovens sorridentes e descontraídos" class="hero-main-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- METRICS SECTION -->
+    <section class="stats-section">
+        <div class="container stats-grid reveal">
+            <div class="stat-item">
+                <div class="stat-number" data-target="26" data-suffix="+">0+</div>
+                <div class="stat-label">Anos de Mercado</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="100" data-suffix="%">0%</div>
+                <div class="stat-label">Foco em Redução de Custos</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target-split="24/7">0/0</div>
+                <div class="stat-label">Atendimento e Suporte</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">Top</div>
+                <div class="stat-label">Gestão de Processos</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-header reveal">
+                <div class="badge">Nossas Soluções</div>
+                <h2 class="section-title">Já imaginou! <span>Terceirizar os serviços</span> de seu Condomínio.</h2>
+                <p class="section-desc">A Hage Solutions possui um know-how fundamentado em mais de 26 anos de história e serviços focados na gestão de processos, incluindo tecnologia e diagnose em todos os segmentos de mercado.</p>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="filter-tabs reveal">
+                <button class="tab-btn active" onclick="filterServices('all')">Todos os Serviços</button>
+                <button class="tab-btn" onclick="filterServices('gestao')">Gestão Condominial</button>
+                <button class="tab-btn" onclick="filterServices('terceirizacao')">Terceirização de Mão de Obra</button>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal" data-category="gestao">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" alt="Gestão e Consultoria Condominial" class="service-img">
+                        <span class="service-tag">Gestão</span>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-icon"><i class="fa-solid fa-calculator"></i></div>
+                        <h3 class="service-title">Gestão e Consultoria Condominial</h3>
+                        <p class="service-desc">Soluções completas de administração e controle financeiro focado na otimização de recursos.</p>
+                        <ul class="service-sublist">
+                            <li>Adm e Contábil</li>
+                        </ul>
+                        <a href="#contact" class="service-link">Fale Conosco <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card reveal" data-category="terceirizacao">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80" alt="Portaria e Recepção" class="service-img">
+                        <span class="service-tag">Terceirização</span>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-icon"><i class="fa-solid fa-user-shield"></i></div>
+                        <h3 class="service-title">Portaria & Atendimento</h3>
+                        <p class="service-desc">Profissionais capacitados para garantir a segurança, recepção e controle do seu condomínio.</p>
+                        <ul class="service-sublist">
+                            <li>Agente de Portaria</li>
+                            <li>Aux. Administrativo</li>
+                            <li>Rondante</li>
+                        </ul>
+                        <a href="#contact" class="service-link">Fale Conosco <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card reveal" data-category="terceirizacao">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80" alt="Limpeza e Conservação" class="service-img">
+                        <span class="service-tag">Terceirização</span>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-icon"><i class="fa-solid fa-broom"></i></div>
+                        <h3 class="service-title">Limpeza & Conservação</h3>
+                        <p class="service-desc">Equipes treinadas para manter a higiene e preservação contínua de todas as áreas comuns.</p>
+                        <ul class="service-sublist">
+                            <li>Faxina & Copeira</li>
+                            <li>Limpeza Pós-Obra</li>
+                            <li>Roçagem</li>
+                        </ul>
+                        <a href="#contact" class="service-link">Fale Conosco <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOOP VIDEO SHOWCASE SECTION -->
+    <section class="video-showcase" id="video">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920&q=80" alt="Pessoas juntas em equipe" class="video-showcase-bg-img">
+
+        <div class="container">
+            <div class="services-header reveal" style="margin-bottom: 40px;">
+                <div class="badge video-badge"><i class="fa-solid fa-building"></i> Gestão em Ação</div>
+                <h2 class="section-title" style="color: var(--white);">Excelência e diagnose <span>em todos os processos</span></h2>
+                <p class="section-desc" style="color: var(--gray-300);">Unindo know-how consolidado, tecnologia moderna e atendimento humanizado para valorizar seu patrimônio.</p>
+            </div>
+
+            <div class="video-container reveal">
+                <video class="video-player" id="bgVideo" autoplay loop muted playsinline poster="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80">
+                    <source src="assets/videos/video2.mp4" type="video/mp4">
+                    Seu navegador não suporta tags de vídeo HTML5.
+                </video>
+                
+                <div class="video-overlay">
+                    <div class="badge video-badge">
+                        <i class="fa-solid fa-circle" style="color: #10b981; font-size: 0.6rem;"></i> Apresentação Institucional
+                    </div>
+                    
+                    <div class="video-info">
+                        <h3>Soluções Inteligentes em Gestão</h3>
+                        <p>Entendemos as verdadeiras necessidades de nossos parceiros para encontrar a mais sensata solução para seu condomínio.</p>
+                        
+                        <div class="video-controls">
+                            <button class="control-btn" id="playPauseBtn" title="Play / Pause" onclick="togglePlay()">
+                                <i class="fa-solid fa-pause"></i>
+                            </button>
+                            <button class="control-btn" id="muteBtn" title="Mudar Som" onclick="toggleMute()">
+                                <i class="fa-solid fa-volume-xmark"></i>
+                            </button>
+                            <span style="font-size: 0.9rem; color: rgba(255,255,255,0.8); margin-left: 10px;">
+                                <i class="fa-solid fa-sliders"></i> Vídeo Institucional
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="why-us" id="about">
+        <div class="container why-us-grid">
+            <div class="why-us-images reveal">
+                <div class="img-card">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&q=80" alt="Gestão Condominial">
+                </div>
+                <div class="img-card img-card-offset">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Consultoria e Atendimento">
+                </div>
+            </div>
+
+            <div class="why-us-content reveal">
+                <div class="badge">Quem Somos</div>
+                <h2 class="section-title">Sobre a <span>Hage Solutions</span></h2>
+                <p class="section-desc" style="margin-left:0; text-align:left;">Somos uma empresa de Consultoria e Gestão Condominial, atuamos em diversos segmentos de mercado prestando serviços e proporcionando otimização de processos com foco principal na redução de custos.</p>
+
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                        <div class="feature-text">
+                            <h4>26 Anos de Tradição</h4>
+                            <p>Ao longo desses 26 anos de mercado, todos os dias buscamos entender as necessidades de nossos parceiros.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fa-solid fa-handshake"></i></div>
+                        <div class="feature-text">
+                            <h4>Respeito e Dedicação</h4>
+                            <p>Fazemos gestão pautada na transparência, responsabilidade e respeito aos condôminos e parceiros.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="feature-text">
+                            <h4>Foco na Redução de Custos</h4>
+                            <p>Proporcionamos a otimização contínua de processos para gerar economia e eficiência administrativa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRABALHE CONOSCO SECTION -->
+    <section class="careers-section" id="careers">
+        <div class="container">
+            <div class="careers-grid">
+                <!-- Trabalhe Conosco -->
+                <div class="careers-card reveal">
+                    <div class="badge">Oportunidades</div>
+                    <h2 class="section-title" style="font-size: 2rem;">Trabalhe <span>Conosco</span></h2>
+                    <p style="color: var(--gray-500); margin-bottom: 16px;">Venha fazer parte da nossa equipe. Vagas e funções oferecidas:</p>
+                    
+                    <div class="vagas-tags">
+                        <span class="vaga-item">Agente de Portaria</span>
+                        <span class="vaga-item">Aux. Administrativo</span>
+                        <span class="vaga-item">Copeira</span>
+                        <span class="vaga-item">Gerente Condominial</span>
+                        <span class="vaga-item">Rondante (CNH A/B)</span>
+                        <span class="vaga-item">Serviços Gerais</span>
+                    </div>
+
+                    <div class="email-box">
+                        <i class="fa-solid fa-envelope-open-text" style="font-size: 1.8rem;"></i>
+                        <p style="margin:0;">Envie seu currículo para fazer parte da nossa equipe:</p>
+                        <button class="btn-upload-cv" onclick="openCvModal()">
+                            <i class="fa-solid fa-file-arrow-up"></i> Enviar Currículo (PDF/Word)
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL POP-UP (UPLOADER CURRÍCULO) -->
+    <div class="modal-overlay" id="cvModalOverlay" onclick="closeCvModalOutside(event)">
+        <div class="modal-container">
+            <button class="modal-close" onclick="closeCvModal()" title="Fechar"><i class="fa-solid fa-xmark"></i></button>
+            
+            <!-- Criativo Header / CTA -->
+            <div class="modal-creative-header">
+                <div class="modal-icon-badge">
+                    <i class="fa-solid fa-user-plus"></i>
+                </div>
+                <h3>Faça Parte da Equipe</h3>
+                <p>Envie suas informações e junte-se ao time Hage Solutions!</p>
+            </div>
+
+            <!-- Formulário -->
+            <div class="modal-body">
+                <form id="cvForm" onsubmit="handleCvSubmit(event)">
+                    <div class="form-group">
+                        <label for="fullName"><i class="fa-regular fa-user"></i> Nome Completo</label>
+                        <input type="text" id="fullName" class="form-input" placeholder="Digite seu nome completo" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phoneNumber"><i class="fa-solid fa-phone"></i> Número de Contato</label>
+                        <input type="tel" id="phoneNumber" class="form-input" placeholder="(xx) x xxxx-xxxx" maxlength="16" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label><i class="fa-solid fa-file-lines"></i> Upload do Currículo</label>
+                        <div class="file-upload-box" id="dropArea">
+                            <input type="file" id="cvFile" accept=".pdf,.doc,.docx" required onchange="handleFileSelect(event)">
+                            <div class="file-upload-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                            <div class="file-upload-text">Clique aqui para selecionar o arquivo</div>
+                            <div class="file-upload-hint">Formatos aceitos: apenas PDF ou Word (.pdf, .doc, .docx)</div>
+                            <div class="selected-file-name" id="selectedFileName"></div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit-cv">
+                        <i class="fa-solid fa-paper-plane"></i> Enviar Candidatura
+                    </button>
+                </form>
+
+                <!-- Mensagem Animada de Sucesso -->
+                <div class="modal-success-state" id="modalSuccessState">
+                    <div class="success-icon-wrapper">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <h4>Parabéns!</h4>
+                    <p>Seu currículo foi enviado com sucesso.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="cta-section" id="contact">
+        <video class="cta-bg-video" id="ctaBgVideo" autoplay loop muted playsinline>
+            <source src="assets/videos/video3.mp4" type="video/mp4">
+        </video>
+        <div class="container cta-content reveal">
+            <h2 class="cta-title">Converse com um de nossos atendentes!</h2>
+            <p class="cta-desc">Descubra como a Hage Solutions pode transformar a gestão e terceirização de mão de obra do seu condomínio com transparência e economia.</p>
+            <a href="https://wa.me/5591982036327" target="_blank" class="btn btn-glass" style="font-size: 1.1rem; padding: 16px 36px;">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp Atendimento
+            </a>
+        </div>
+    </section>
+
+    <!-- WHATSAPP FLOATING WIDGET & CHAT BOT -->
+    <div class="whatsapp-widget" id="whatsappWidget">
+        <div class="whatsapp-chat-box" id="whatsappChatBox">
+            <div class="whatsapp-chat-header">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <div class="whatsapp-avatar"><i class="fa-brands fa-whatsapp"></i></div>
+                    <div>
+                        <h4>Assistente Hage Solutions</h4>
+                        <p>Online • Ajuda na navegação</p>
+                    </div>
+                </div>
+                <button class="whatsapp-close-btn" onclick="toggleWhatsappChat()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="whatsapp-chat-body" id="whatsappChatBody">
+                <div class="whatsapp-msg bot">
+                    Olá! 👋 Bem-vindo à <strong>Hage Solutions</strong>. Sou seu assistente virtual para ajudar na navegação do site. O que você gostaria de ver?
+                </div>
+                <div class="whatsapp-options" id="whatsappOptions">
+                    <button class="whatsapp-opt-btn" onclick="handleBotOption('servicos')"><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i> 1. Conhecer Nossos Serviços</button>
+                    <button class="whatsapp-opt-btn" onclick="handleBotOption('sobre')"><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i> 2. Sobre a Hage Solutions</button>
+                    <button class="whatsapp-opt-btn" onclick="handleBotOption('trabalhe')"><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i> 3. Trabalhe Conosco (Vagas)</button>
+                    <button class="whatsapp-opt-btn" onclick="handleBotOption('humano')"><i class="fa-brands fa-whatsapp" style="color:#25d366;"></i> 4. Falar com Atendente Humano</button>
+                </div>
+            </div>
+        </div>
+        <button class="whatsapp-float-btn" onclick="toggleWhatsappChat()" title="Atendimento WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span class="whatsapp-notification-badge">1</span>
+        </button>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo-link">
+                        <img src="assets/images/logo.png" alt="Hage Solutions" class="footer-logo">
+                    </a>
+                    <p>"Há 26 anos fazendo gestão com respeito, dedicação e responsabilidade."</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre Nós</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#careers">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Serviços</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Gestão Condominial</a></li>
+                        <li><a href="#services">Consultoria Contábil</a></li>
+                        <li><a href="#services">Portaria & Recepção</a></li>
+                        <li><a href="#services">Limpeza & Terceirização</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Contato & Seleção</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:vagas@hagesolutions.com.br"><i class="fa-solid fa-envelope"></i> vagas@hagesolutions.com.br</a></li>
+                        <li><a href="#contact"><i class="fa-brands fa-whatsapp"></i> WhatsApp Atendimento</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hage Solutions. Todos os direitos reservados. Há 26 anos fazendo gestão com excelência.</p>
+                <div style="display: flex; gap: 20px;">
+                    <a href="#" style="color: var(--gray-500); text-decoration: none;">Privacidade</a>
+                    <a href="#" style="color: var(--gray-500); text-decoration: none;">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FOR INTERACTIVITY & ANIMATIONS -->
+    <script>
+        // Hero Background Video Loop Control
+        const heroBgVideo = document.getElementById('heroBgVideo');
+        if (heroBgVideo) {
+            heroBgVideo.currentTime = 3;
+            heroBgVideo.addEventListener('timeupdate', function() {
+                const maxTime = heroBgVideo.duration > 13 ? (heroBgVideo.duration - 10) : 10;
+                if (heroBgVideo.currentTime >= maxTime || heroBgVideo.currentTime < 3) {
+                    heroBgVideo.currentTime = 3;
+                }
+            });
+        }
+
+        // CTA Background Video 24s Loop Control
+        const ctaBgVideo = document.getElementById('ctaBgVideo');
+        if (ctaBgVideo) {
+            ctaBgVideo.addEventListener('timeupdate', function() {
+                if (ctaBgVideo.currentTime >= 24) {
+                    ctaBgVideo.currentTime = 0;
+                }
+            });
+        }
+
+        // WhatsApp Bot Chat Functions
+        let chatOpen = false;
+        function toggleWhatsappChat() {
+            chatOpen = !chatOpen;
+            const box = document.getElementById('whatsappChatBox');
+            const badge = document.querySelector('.whatsapp-notification-badge');
+            if (chatOpen) {
+                box.style.display = 'flex';
+                if (badge) badge.style.display = 'none';
+            } else {
+                box.style.display = 'none';
+            }
+        }
+
+        function handleBotOption(option) {
+            const chatBody = document.getElementById('whatsappChatBody');
+            const optionsContainer = document.getElementById('whatsappOptions');
+            
+            if (optionsContainer) optionsContainer.remove();
+
+            let userText = '';
+            let botReply = '';
+            let nextAction = null;
+
+            if (option === 'servicos') {
+                userText = '1. Conhecer Nossos Serviços';
+                botReply = 'Oferecemos Gestão e Consultoria Condominial, Portaria & Atendimento, e Limpeza & Conservação. Deseja ser levado até a seção de serviços no site?';
+                nextAction = 'services';
+            } else if (option === 'sobre') {
+                userText = '2. Sobre a Hage Solutions';
+                botReply = 'A Hage Solutions possui mais de 26 anos de história fazendo gestão com respeito, dedicação e foco na redução de custos para condomínios. Deseja ver a nossa história?';
+                nextAction = 'about';
+            } else if (option === 'trabalhe') {
+                userText = '3. Trabalhe Conosco (Vagas)';
+                botReply = 'Temos oportunidades para Agente de Portaria, Aux. Administrativo, Copeira, Gerente Condominial, Rondante e Serviços Gerais. Deseja ver a seção de vagas?';
+                nextAction = 'careers';
+            } else if (option === 'humano') {
+                userText = '4. Falar com Atendente Humano';
+                botReply = 'Excelente! Estou te redirecionando para o nosso atendimento humano via WhatsApp agora mesmo (+55 91 9 8203-6327)...';
+                nextAction = 'whatsapp';
+            }
+
+            // Append user message
+            const userMsgDiv = document.createElement('div');
+            userMsgDiv.className = 'whatsapp-msg user';
+            userMsgDiv.innerText = userText;
+            chatBody.appendChild(userMsgDiv);
+            chatBody.scrollTop = chatBody.scrollHeight;
+
+            // Simulate bot reply
+            setTimeout(() => {
+                const botMsgDiv = document.createElement('div');
+                botMsgDiv.className = 'whatsapp-msg bot';
+                botMsgDiv.innerHTML = botReply;
+                chatBody.appendChild(botMsgDiv);
+                chatBody.scrollTop = chatBody.scrollHeight;
+
+                if (nextAction === 'whatsapp') {
+                    setTimeout(() => {
+                        const redirectMsg = document.createElement('div');
+                        redirectMsg.className = 'whatsapp-msg bot';
+                        redirectMsg.innerHTML = 'Abrindo conversa no WhatsApp... <br><br><a href="https://wa.me/5591982036327" target="_blank" style="color: #075e54; font-weight: bold; text-decoration: underline;">👉 Clique aqui se não abrir automaticamente</a>';
+                        chatBody.appendChild(redirectMsg);
+                        chatBody.scrollTop = chatBody.scrollHeight;
+                        window.open('https://wa.me/5591982036327', '_blank');
+                    }, 1000);
+                } else {
+                    setTimeout(() => {
+                        const newOptionsDiv = document.createElement('div');
+                        newOptionsDiv.className = 'whatsapp-options';
+                        newOptionsDiv.id = 'whatsappOptions';
+                        
+                        newOptionsDiv.innerHTML = `
+                            <button class="whatsapp-opt-btn" onclick="navigateToSection('${nextAction}')"><i class="fa-solid fa-arrow-right" style="color:#25d366;"></i> Ir para esta seção agora</button>
+                            <button class="whatsapp-opt-btn" onclick="handleBotOption('humano')"><i class="fa-brands fa-whatsapp" style="color:#25d366;"></i> Falar com atendente humano (+55 91 9 8203-6327)</button>
+                        `;
+                        chatBody.appendChild(newOptionsDiv);
+                        chatBody.scrollTop = chatBody.scrollHeight;
+                    }, 600);
+                }
+            }, 600);
+        }
+
+        function navigateToSection(sectionId) {
+            toggleWhatsappChat();
+            const el = document.getElementById(sectionId);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // Modal Functions
+        function openCvModal() {
+            document.getElementById('cvModalOverlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeCvModal() {
+            document.getElementById('cvModalOverlay').classList.remove('active');
+            document.body.style.overflow = 'auto';
+            setTimeout(() => {
+                document.getElementById('cvForm').style.display = 'block';
+                document.getElementById('modalSuccessState').style.display = 'none';
+                document.getElementById('cvForm').reset();
+                document.getElementById('selectedFileName').innerText = '';
+            }, 300);
+        }
+
+        function closeCvModalOutside(event) {
+            if (event.target === document.getElementById('cvModalOverlay')) {
+                closeCvModal();
+            }
+        }
+
+        function handleFileSelect(event) {
+            const file = event.target.files[0];
+            const nameDisplay = document.getElementById('selectedFileName');
+            if (file) {
+                const ext = file.name.split('.').pop().toLowerCase();
+                if (['pdf', 'doc', 'docx'].includes(ext)) {
+                    nameDisplay.innerText = `Arquivo selecionado: ${file.name}`;
+                    nameDisplay.style.color = 'var(--accent)';
+                } else {
+                    alert('Por favor, selecione apenas arquivos em formato PDF ou Word (.pdf, .doc, .docx).');
+                    event.target.value = '';
+                    nameDisplay.innerText = '';
+                }
+            } else {
+                nameDisplay.innerText = '';
+            }
+        }
+
+        function handleCvSubmit(event) {
+            event.preventDefault();
+            
+            const cvFileInput = document.getElementById('cvFile');
+            if (cvFileInput.files.length > 0) {
+                const ext = cvFileInput.files[0].name.split('.').pop().toLowerCase();
+                if (!['pdf', 'doc', 'docx'].includes(ext)) {
+                    alert('Formato de arquivo inválido. Apenas PDF ou Word.');
+                    return;
+                }
+            }
+
+            document.getElementById('cvForm').style.display = 'none';
+            document.getElementById('modalSuccessState').style.display = 'block';
+
+            setTimeout(() => {
+                closeCvModal();
+            }, 3000);
+        }
+
+        // Máscara para o campo de telefone no formato (xx) x xxxx-xxxx
+        const phoneInput = document.getElementById('phoneNumber');
+        if (phoneInput) {
+            phoneInput.addEventListener('input', function (e) {
+                let x = e.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0,1})(\d{0,4})(\d{0,4})/);
+                e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? ' ' + x[3] : '') + (x[4] ? '-' + x[4] : '');
+            });
+        }
+
+        // Animação de contagem dos números
+        function animateCounters() {
+            const statNumbers = document.querySelectorAll('.stat-number');
+            const duration = 2000;
+            const frameRate = 1000 / 60;
+            const totalFrames = Math.round(duration / frameRate);
+
+            statNumbers.forEach(counter => {
+                const target = counter.getAttribute('data-target');
+                const suffix = counter.getAttribute('data-suffix') || '';
+                const split = counter.getAttribute('data-target-split');
+
+                if (target) {
+                    const targetNum = parseInt(target, 10);
+                    let frame = 0;
+
+                    const timer = setInterval(() => {
+                        frame++;
+                        const progress = frame / totalFrames;
+                        const currentNum = Math.floor(targetNum * Math.min(progress, 1));
+                        counter.innerText = currentNum + suffix;
+
+                        if (frame >= totalFrames) {
+                            counter.innerText = targetNum + suffix;
+                            clearInterval(timer);
+                        }
+                    }, frameRate);
+                } else if (split) {
+                    const parts = split.split('/');
+                    const num1 = parseInt(parts[0], 10);
+                    const num2 = parseInt(parts[1], 10);
+                    let frame = 0;
+
+                    const timer = setInterval(() => {
+                        frame++;
+                        const progress = frame / totalFrames;
+                        const cur1 = Math.floor(num1 * Math.min(progress, 1));
+                        const cur2 = Math.floor(num2 * Math.min(progress, 1));
+                        counter.innerText = `${cur1}/${cur2}`;
+
+                        if (frame >= totalFrames) {
+                            counter.innerText = split;
+                            clearInterval(timer);
+                        }
+                    }, frameRate);
+                }
+            });
+        }
+
+        const statsSection = document.querySelector('.stats-section');
+        let countersAnimated = false;
+
+        if (statsSection) {
+            const statsObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !countersAnimated) {
+                        animateCounters();
+                        countersAnimated = true;
+                    }
+                });
+            }, { threshold: 0.3 });
+
+            statsObserver.observe(statsSection);
+        }
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Scroll Reveal Animation
+        const observerOptions = {
+            threshold: 0.15,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Filter Services Tabs
+        function filterServices(category) {
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            const cards = document.querySelectorAll('.service-card');
+            cards.forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                if (category === 'all' || cardCat === category) {
+                    card.style.display = 'flex';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 50);
+                } else {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
+                }
+            });
+        }
+
+        // Video Player Controls
+        const video = document.getElementById('bgVideo');
+        const playPauseBtn = document.getElementById('playPauseBtn');
+        const muteBtn = document.getElementById('muteBtn');
+
+        function togglePlay() {
+            if (video.paused) {
+                video.play();
+                playPauseBtn.innerHTML = '<i class="fa-solid fa-pause"></i>';
+            } else {
+                video.pause();
+                playPauseBtn.innerHTML = '<i class="fa-solid fa-play"></i>';
+            }
+        }
+
+        function toggleMute() {
+            if (video.muted) {
+                video.muted = false;
+                muteBtn.innerHTML = '<i class="fa-solid fa-volume-high"></i>';
+            } else {
+                video.muted = true;
+                muteBtn.innerHTML = '<i class="fa-solid fa-volume-xmark"></i>';
+            }
+        }
+    </script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
